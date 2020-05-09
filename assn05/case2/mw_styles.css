@@ -24,7 +24,17 @@ body {
    font-family: 'Century Gothic', sans-serif;
 }
 
-
+body footer {
+   background-color: rgb(208, 184,109);
+   font-family: 'Century Gothic', sans-serif;
+   margin: 5px;
+   text-align: center;
+}
+body > footer address {
+   font: normal 0.9em
+   text-align center;
+   margin: 10px;
+}
 /* Heading Styles */
 
 
