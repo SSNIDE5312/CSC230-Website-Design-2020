@@ -4,11 +4,13 @@
    font-family: Champagne;
    src: url('cac_champagne.woff') format('woff'),
         url('cac_champagne.ttf') format('truetype');
-   
+}
+@font-face {
    font-family: Grunge;
    src: url('1942.woff') format('woff'),
         url('1942.ttf') format('truetype');
-
+}
+@font-face {
    font-family: Dobkin;
    src: url('DobkinPlain.woff') format('woff'),
         url('DobkinPlain.ttf') format('truetype');
@@ -41,6 +43,11 @@ body {
 
 header {
    background-color: black;
+}
+
+body > p {
+   text-align: center;
+   font-size: 1.1em;
 }
 
 /* Navigation Styles */
