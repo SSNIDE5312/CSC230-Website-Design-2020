@@ -9,11 +9,16 @@ Date:       05/22/2020
 }
 
 body {
-    margin: 10px 25px;
+    margin: 15px 25px;
 
 }
 
-header h1, h3 {
+header {
+    color: deepskyblue;
+    background-color: black;
+}
+
+h1, h3 {
     color: deepskyblue;
     background-color: black;
 }
