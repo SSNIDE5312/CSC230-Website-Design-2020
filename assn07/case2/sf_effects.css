@@ -29,6 +29,9 @@ body > header nav.tabs {
    background-position: center;
 }
 
+body > header nav.tabs li {
+   transform: perspective(50px) rotate(20deg);
+}
 
 
 
