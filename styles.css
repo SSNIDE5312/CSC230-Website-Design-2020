@@ -7,3 +7,13 @@ Date:       05/22/2020
     background-color: deepskyblue;
     color: black;
 }
+
+body {
+    margin: 10px 25px;
+
+}
+
+header h1, h3 {
+    color: deepskyblue;
+    background-color: black;
+}
