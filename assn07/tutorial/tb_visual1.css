@@ -25,7 +25,7 @@ figure img {
    width: 100%;
 }
 
-figure caption {
+figure figcaption {
    background-color: white;
    font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
    font-style: italic;
@@ -36,11 +36,20 @@ figure caption {
 
 
 /* HTML Styles */
+html {
+   background-image: url(tb_back1.png);
+}
 
 
 
 
 /* Article Styles */
+article {
+   background: url(tb_back2.png) bottom right / 15% no-repeat content-box,
+               url(tb_back3.png) bottom left / 15% no-repeat content-box,
+               url(tb_back4.png) 100% / cover no-repeat,
+               rgb(211,211,211);
+}
 
 
 
