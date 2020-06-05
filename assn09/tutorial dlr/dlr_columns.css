@@ -30,8 +30,17 @@
       -moz-column-rule: 2px solid gray;
       -webkit-column-rule: 2px solid gray;
       column-rule: 2px solid gray;
+
+      widows: 3;
+      orphans: 3;
    }
 
-   
+   article h1 {
+      -moz-column-span: all;
+      -webkit-column-span: all;
+      column-span: all;
+   }
+
+
 }
 
