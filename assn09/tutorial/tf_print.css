@@ -4,8 +4,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Scott Snider
+   Date:     06/04/2020
    
    Filename: tf_print.css
 
@@ -17,6 +17,10 @@
 
 
 /* Hidden Objects */
+
+nav.horizontal, aside, footer {
+   display: none;
+}
 
 
 
