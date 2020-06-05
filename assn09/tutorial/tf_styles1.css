@@ -214,7 +214,7 @@ ul.submenu {
    width: 100%;
 }
 
-nav.horizontal:after {
+nav.horizontal::after {
    clear: both;
    content: "";
    display: table;
