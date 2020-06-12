@@ -3,3 +3,18 @@ Author:         Scott Snider
 Date:           06/12/2020
 Description:    Stylesheet for Final Exam
 */
+
+body {
+    font-family: Verdana, Tacoma, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+    background-color: mediumblue;
+}
+
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
+
+}
