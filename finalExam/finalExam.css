@@ -15,7 +15,10 @@ body {
 header h1 {
     font-size: 36pt;
     margin: 35px 0px 0px 0px;
-    padding: 15px 15px 0px 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     background-color: lightgrey;
 
 }
@@ -37,6 +40,12 @@ header h3 {
     padding-bottom: 15px;
     padding-right: 0px;
     background-color: lightgrey;
+}
+
+header img {
+    float: right;
+    width: 150px;
+    height: 200px;
 }
 
 h3 {
@@ -90,6 +99,7 @@ table {
 table th {
     font-size: 1em;
     text-align: center;
+    color: blueviolet;
     background-color:black
     margin: 2px 5px 2px 5px;
 }
@@ -103,5 +113,6 @@ table td {
 footer {
     color: black
     text-align: center;
+    
 
 }
